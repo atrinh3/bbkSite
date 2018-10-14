@@ -1,0 +1,148 @@
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  ;
+}
+
+/* 
+Header style 
+*/
+
+header {
+  padding: 10px 30px;
+  text-align: left;
+  background-color: #dbc18e;
+  /*background-image: url("http://cdn.shopify.com/s/files/1/0604/1061/products/boba_9ee88c01-a8a8-49ef-91d3-f135db6f4151_grande.jpg?v=1490839761");*/
+  background-image: url("images/BobaKat.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 80%;
+  color: #4c3e1e;
+}
+
+header h1 {
+  font-size: 40px;
+  font-family: 'Pacifico', cursive;
+}
+
+header h2 {
+  font-size: 20px;
+  font-family: 'Righteous', cursive;
+}
+
+/* 
+Navigation bar style 
+*/
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: 0.3s;
+  color: white;
+}
+
+.navbar button.right {
+  float: right;
+}
+
+.navbar button:hover {
+  background-color: white;
+  color: black;
+}
+
+.navbar button.active {
+  background-color: grey;
+}
+
+/* 
+Navigation content style 
+*/
+
+.navcontent {
+  background-color: #d8c8a9;
+  display: none;
+  padding: 10px 20px;
+  border: none;
+  border-top: none;
+  font-family: Arial;
+  height: 100%;
+}
+
+/*
+Updates page style 
+*/
+
+.updateentry {
+  padding-left: 10px;
+}
+
+.updatelist {
+  padding-left: 0px;
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+/*
+About page style 
+*/
+
+.aboutlist {
+  padding-left: 0px;
+}
+
+.aboutentry {
+  list-style-type: none;
+}
+
+/*
+Footer style
+*/
+
+footer {
+  padding: 20px;
+  font-family: Arial;
+  background-color: #333;
+  color: #bababa;
+  text-align: center;
+}
+
+footer.h3 {
+  font-size: 15px;
+}
+
+.footerlink a {
+  font-size: 12px;
+  color: #bababa;
+}
+
+.footerlink a:hover{
+  opacity: 0.7;
+}
+
+.fa {
+  padding: 20px;
+  padding-top: 0px;
+  font-size: 20px;
+  width: 30px;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: #bababa;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.copyright {
+  font-size: 10px;
+}
