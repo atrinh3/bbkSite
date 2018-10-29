@@ -12,10 +12,6 @@ Header style
 header {
   text-align: left;
   background-color: #dbc18e;
-  /*background-image: url("images/BobaKat.png");*/
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 80%;
   color: #4c3e1e;
 }
 
@@ -25,6 +21,7 @@ header table {
 
 .logo {
   padding: 10px;
+  height: 150px;
 }
 
 header h1 {
