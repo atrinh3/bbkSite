@@ -149,3 +149,8 @@ footer.h3 {
 .copyright {
   font-size: 10px;
 }
+
+.secureseal {
+  font-size: 10px;
+  float: right;
+}
